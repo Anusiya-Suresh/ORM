@@ -1,5 +1,5 @@
 # Ex02 Django ORM Web Application
-# Date: 20/11/2026
+# Date:
 # AIM
 To develop a Django application to store and retrieve data from a bank loan database using Object Relational Mapping(ORM).
 
@@ -17,7 +17,9 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 cars
 
 # PROGRAM
-```models.py 
+
+```
+models.py 
 
 from django.db import models
 from django.contrib import admin
@@ -37,17 +39,17 @@ class StudentAdmin(admin.ModelAdmin):
     list_display=['Name','Age','DateofBirth','Father_Name','Mother_Name','Department','YearofStudy']
 ```
 
-
-```admin.py 
+```
+admin.py 
 
 from django.contrib import admin
 from .models import Student, StudentAdmin
 
 admin.site.register(Student,StudentAdmin)
-
 ```
 
-```urls.py
+```
+urls.py
 
 from django.contrib import admin
 from django.urls import path
@@ -59,11 +61,10 @@ urlpatterns = [
     path('about/',views.about),
 ]
 
-
 ```
 # OUTPUT
-<img width="1913" height="968" alt="image" src="https://github.com/user-attachments/assets/bb5a3302-5144-4812-bfff-cff6e3a39dac" />
 
+![alt text](image.png)
 
 # RESULT
 Thus the program for creating a database using ORM hass been executed successfully
