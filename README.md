@@ -64,7 +64,9 @@ urlpatterns = [
 ```
 # OUTPUT
 
-![alt text](image.png)
+![output](./image-1.png)
+
+![output](./image.png)
 
 # RESULT
 Thus the program for creating a database using ORM hass been executed successfully
