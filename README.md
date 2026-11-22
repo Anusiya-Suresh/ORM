@@ -50,6 +50,11 @@ admin.site.register(car,caradmin)
 ```
 # OUTPUT
 
+![alt text]
+(<Screenshot 2026-11-22 222835.png>)
+![alt text]
+(<Screenshot 2026-11-22 222907.png>)
+
 
 # RESULT
 Thus the program for creating a database using ORM hass been executed successfully
