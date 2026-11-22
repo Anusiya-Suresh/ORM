@@ -50,8 +50,8 @@ admin.site.register(car,caradmin)
 ```
 # OUTPUT
 
-![alt text](image.png)
-![alt text](image-1.png)
+![output](./image.png)
+![output](./image-1.png)
 
 
 # RESULT
