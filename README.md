@@ -19,6 +19,35 @@ Execute Django admin and create details for 10 cars
 # PROGRAM
 
 
+```
+models.py
+
+from django.db import models
+from django.contrib import admin
+
+class car(models.Model):
+    Brand=models.CharField(max_length=50)
+    Model=models.CharField(max_length=50)
+    Price=models.IntegerField()
+    Year=models.DateField()
+    Color=models.CharField(max_length=25)
+    Fuel_type=models.CharField(max_length=25)
+    Transmission=models.CharField(max_length=30)
+
+
+
+class caradmin(admin.ModelAdmin):
+    list_display=['Brand','Model','Price','Year','Color','Fuel_type','Transmission']
+```
+
+```
+admin.py
+
+from django.contrib import admin
+from .models import car, caradmin
+
+admin.site.register(car,caradmin)
+```
 # OUTPUT
 
 
